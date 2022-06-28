@@ -1,3 +1,13 @@
+@media screen and (min-width: 768px) {
+    .neighbourhood-img img {display:none;}
+}
+
+@media screen and (max-width: 767px) {
+
+        .neighbourhood-img img {display:block;}
+
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
   margin: 0;
