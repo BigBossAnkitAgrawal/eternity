@@ -15,12 +15,6 @@
   box-sizing: border-box;
   font-family: 'Poppins',sans-serif;
 }
-header{
-  height: 100vh;
-  width: 100%;
-  background: url("https://th.bing.com/th/id/R.e51f4af328c8adccd544323a982427a2?rik=lR39jrfU950yOQ&riu=http%3a%2f%2fwww.inzign.com%2fwp-content%2fuploads%2f2016%2f08%2fws_WhatsApp_Background_1680x1050.jpg&ehk=pxcrzz28RKf%2f1tMDlCGAEycU0gvI5A%2fK%2bnopgc9KdyQ%3d&risl=&pid=ImgRaw&r=0") no-repeat;
-  background-position: center;
-}
 ::selection{
   background: #22c3b0;
 }
