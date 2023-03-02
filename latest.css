@@ -10,7 +10,7 @@ body{
   height: 100vh;;
   width: 100%;
   display: flex;
-  background-image: linear-gradient( 135deg, #ff9a9e  10%, #F6416C 100%);
+  background-image: linear-gradient( 135deg, #e2afb1  10%, #41a5f6 100%);
 }
 ::selection{
   color: #f2f2f2;
@@ -28,12 +28,12 @@ body::after{
 body::before{
   clip-path: circle(30% at left 20%);
   opacity: 0.4;
-  background-image: linear-gradient( 135deg, #F6416C 10%, #ff9a9e 100%);
+  background-image: linear-gradient( 135deg, #4cc1e4 10%, #9adaff 100%);
 }
 body::after{
   opacity: 0.4;
   clip-path: circle(25% at right 80%);
-  background-image: linear-gradient( 135deg, #F6416C 10%, #ff9a9e 100%);
+  background-image: linear-gradient( 135deg, #e7f641 10%, #9affdc 100%);
 }
 header{
   height: 85vh;
