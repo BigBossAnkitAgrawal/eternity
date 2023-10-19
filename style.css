@@ -285,3 +285,50 @@ header .media-icons{
   .media-icons a:hover{
    opacity: 1;
   }
+
+
+
+/* Default styles for all devices */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Media queries for responsive design */
+
+/* Styles for phones (up to 767px) */
+@media (max-width: 767px) {
+    .container {
+        width: 100%;
+    }
+}
+
+/* Styles for tablets (768px to 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .container {
+        width: 80%;
+    }
+}
+
+/* Styles for desktops and larger screens (1024px and above) */
+@media (min-width: 1024px) {
+    .container {
+        width: 70%;
+    }
+}
+
